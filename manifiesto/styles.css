@@ -138,14 +138,14 @@ footer.footer {
     display: none;
 }
 
-/* Contenedor principal */
+
 .social-menu {
   position: relative;
   display: inline-block;
   margin-top: 30px;
 }
 
-/* Botón principal */
+
 .social-btn {
   white-space: nowrap;
   display: inline-block;
@@ -162,10 +162,10 @@ footer.footer {
   background: #df0000d0;
 }
 
-/* Contenedor de links (inicialmente oculto) */
+
 .social-links {
   position: absolute;
-  top: 100%; /* justo debajo del botón */
+  top: 100%; 
   left: 0;
   background: #111;
   border-radius: 6px;
@@ -179,7 +179,7 @@ footer.footer {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* Links individuales */
+
 .social-links a {
   display: block;
   padding: 10px 15px;
@@ -192,7 +192,6 @@ footer.footer {
   background: #222;
 }
 
-/* Toggle: cuando el checkbox está activado, mostrar links */
 #social-toggle:checked ~ .social-links {
   opacity: 1;
   visibility: visible;
@@ -204,7 +203,6 @@ footer.footer {
   font-size: 16px;
 }
 
-/* Colores oficiales */
 .fa-instagram {
   color: #ff004c;
 }
@@ -238,7 +236,6 @@ footer.footer {
     letter-spacing: 1px;
 }
 
-/* Botón Ver más */
 .btn {
   display: inline-block;
   margin-top: 15px;
